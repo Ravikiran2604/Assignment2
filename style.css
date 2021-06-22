@@ -1,0 +1,138 @@
+body
+{    
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:100vw 750px;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right ,rgb(243, 36, 36,0.8),rgb(255, 0, 242,0.8));
+}
+body
+{
+    margin-bottom: 0px;
+}
+#head h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center!important;
+    color: whitesmoke;
+}
+#login a
+{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: grey;
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+}
+.span
+{
+    color: grey;
+    font-size: 30px;
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+}
+#header a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: rgb(248, 248, 35);
+    padding: 2px 65px 2px 65px;
+    margin-left: 65px;
+
+}
+#header a:hover
+{
+    font-size: 30px;
+}
+.banner
+{
+    margin-top: 45px;
+}
+.heading {
+    background-image: url(./banner);
+    background-repeat: no-repeat;
+    height:500px;
+    text-align: center;
+}
+.heading h1 
+{
+    background-color: rgb(248, 248, 35);
+    height: 50px;
+    width: 290px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 215px;
+    left: 40px;
+
+}
+.heading p{
+    background-color: rgb(248, 248, 35);
+    height: 30px;
+    width: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 220px;
+    left: 40px;
+}
+.dollar 
+{
+    background-color:rgb(248, 248, 35);
+    height: 200px;
+    width: 480px;
+    position: relative;
+    left: 1000px;
+    bottom: 529px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.dollar:hover
+{
+    transition: width 2s height 2s transform 2s;
+    width: 500px;
+    height: 230px;
+}
+.price
+{
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+}
+.feature
+{
+    background-color: white;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    bottom: 465px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 18px;
+}
+.icon
+{
+    font-size: 40px;
+}
+.feature:hover
+{
+    background-color: white;
+    height: 190px;
+    width: 370px;
+    font-size: 20px;
+}
+form
+{
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover
+{
+    color: rgb(255, 0, 242,0.8);
+    text-align: center;
+}
